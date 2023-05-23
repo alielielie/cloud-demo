@@ -5,13 +5,13 @@ spring:
   application:
     name: orderservice
   datasource:
-    url: jdbc:mysql://localhost:13306/cloud_order?useSSL=false
+    url: jdbc:mysql://mysql:3306/cloud_order?useSSL=false
     username: root
-    password: ytyt420ztzt
+    password: 123
     driver-class-name: com.mysql.jdbc.Driver
   cloud:
     nacos:
-      server-addr: localhost:8848 # nacos服务地址
+      server-addr: nacos:8848 # nacos服务地址
       discovery:
         cluster-name: HZ # 集群名称
 #        namespace: 3ec39342-1c9b-474a-9107-d72490570f34 #dev环境

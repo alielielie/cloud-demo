@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:13306/cloud_user?useSSL=false
+    url: jdbc:mysql://mysql:3306/cloud_user?useSSL=false
     username: root
-    password: ytyt420ztzt
+    password: 123
     driver-class-name: com.mysql.jdbc.Driver
 
 mybatis:
